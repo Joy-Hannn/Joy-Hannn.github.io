@@ -179,16 +179,6 @@ template {
   display: none
 }
 
-/* 鼠标图标？这玩意儿没啥效果啊 */
-body {
-    background: rgba(255, 255, 255, .5);
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/Jkll8I.png), auto;
-    margin: 0;
-}
-a:hover{
-    text-decoration: none;
-    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
-}
 
 .limit-one-line,
 #article-container .flink .flink-item-name,
