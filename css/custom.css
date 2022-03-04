@@ -64,3 +64,183 @@ i:hover{
 #nav .site-page:hover{
       cursor: url('/img/Comix New Cursors/Comix New White/Hand2.cur'),auto;
 }
+
+/* 布局样式 */
+body {
+  /* width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  color: slategray;
+  display:flex;
+  flex-wrap: wrap; */
+}
+
+.recent-post-item {
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.recent-posts {
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+}
+
+.aside-content {
+  /* justify-content: center; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px; 
+}
+
+/* 拟态样式 */
+.recent-post-item {
+  padding-left: calc(1.2rem * var(--ahzoo-proportion))!important;
+  padding-right: calc(1.2rem * var(--ahzoo-proportion))!important;
+}
+
+#recent-posts > .recent-post-item{
+  box-shadow: 7px 7px 9px rgba(0, 0, 0, 0.1),
+      /* -9px -9px 9px rgba(255, 255, 255, 1); */
+      -7px -7px 9px rgba(247, 165, 188, 0.1);
+  border-radius: 15px;
+  /* background-color: #ffffff; */
+  transition: box-shadow .2s ease-out;
+} 
+
+#recent-posts > .recent-post-item:hover {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2),
+      0 0 0 rgba(255, 255, 255, 0.8),
+      inset 7px 7px 9px rgba(0, 0, 0, 0.1),
+      inset -7px -7px 9px rgba(255, 255, 255, 1);
+  transition: box-shadow .2s ease-out;
+} 
+
+/* 拟态样式 */
+/* .container .box {
+  width: 99px;
+  height: 99px;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.1),
+      -50px -50px 100px rgba(255, 255, 255, 1);
+  border-radius: 50px;
+  background-color: #eee;
+  transition: box-shadow .2s ease-out;
+}
+
+.container .box:hover {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2),
+      0 0 0 rgba(255, 255, 255, 0.8),
+      inset 19px 19px 38px rgba(0, 0, 0, 0.1),
+      inset -19px -19px 38px rgba(255, 255, 255, 1);
+  transition: box-shadow .2s ease-out;
+} */
+/* .card-widget {
+  padding-left: calc(1.2rem * var(--ahzoo-proportion))!important;
+  padding-right: calc(1.2rem * var(--ahzoo-proportion))!important;
+} */
+
+#aside-content > .card-widget {
+  /* width: 99px;
+  height: 99px; */
+  box-shadow: 7px 7px 9px rgba(0, 0, 0, 0.1),
+      /* -9px -9px 9px rgba(255, 255, 255, 1); */
+      -7px -7px 9px rgba(247, 165, 188, 0.1);
+  border-radius: 15px;
+  background-color: #ffffff;
+  transition: box-shadow .2s ease-out;
+}
+
+#aside-content >.card-widget:hover {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2),
+      0 0 0 rgba(255, 255, 255, 0.8),
+      inset 7px 7px 9px rgba(0, 0, 0, 0.1),
+      inset -7px -7px 9px rgba(255, 255, 255, 1);
+  transition: box-shadow .2s ease-out;
+}
+
+#aside-content > .sticky_layout > .card-widget {
+  /* width: 99px;
+  height: 99px; */
+  box-shadow: 7px 7px 9px rgba(0, 0, 0, 0.1),
+      /* -9px -9px 9px rgba(255, 255, 255, 1); */
+      -7px -7px 9px rgba(247, 165, 188, 0.1);
+  border-radius: 15px;
+  background-color: #ffffff;
+  transition: box-shadow .2s ease-out;
+}
+
+#aside-content >.sticky_layout >.card-widget:hover {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2),
+      0 0 0 rgba(255, 255, 255, 0.8),
+      inset 7px 7px 9px rgba(0, 0, 0, 0.1),
+      inset -7px -7px 9px rgba(255, 255, 255, 1);
+  transition: box-shadow .2s ease-out;
+}
+
+/*page样式*/
+/* .recent-post-item {
+  padding-left: calc(1.2rem * var(--ahzoo-proportion))!important;
+  padding-right: calc(1.2rem * var(--ahzoo-proportion))!important;
+} */
+
+#post{
+  box-shadow: 7px 7px 9px rgba(0, 0, 0, 0.1),
+      /* -9px -9px 9px rgba(255, 255, 255, 1); */
+      -7px -7px 9px rgba(247, 165, 188, 0.1);
+  border-radius: 15px;
+  background-color: #ffffff;
+  transition: box-shadow .2s ease-out;
+} 
+
+#post:hover {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2),
+      0 0 0 rgba(255, 255, 255, 0.8),
+      inset 7px 7px 9px rgba(0, 0, 0, 0.1),
+      inset -7px -7px 9px rgba(255, 255, 255, 1);
+  transition: box-shadow .2s ease-out;
+} 
+
+#page{
+  box-shadow: 7px 7px 9px rgba(0, 0, 0, 0.1),
+      /* -9px -9px 9px rgba(255, 255, 255, 1); */
+      -7px -7px 9px rgba(247, 165, 188, 0.1);
+  border-radius: 15px;
+  background-color: #ffffff;
+  transition: box-shadow .2s ease-out;
+} 
+
+#page:hover {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2),
+      0 0 0 rgba(255, 255, 255, 0.8),
+      inset 7px 7px 9px rgba(0, 0, 0, 0.1),
+      inset -7px -7px 9px rgba(255, 255, 255, 1);
+  transition: box-shadow .2s ease-out;
+} 
+
+#archive{
+  box-shadow: 7px 7px 9px rgba(0, 0, 0, 0.1),
+      /* -9px -9px 9px rgba(255, 255, 255, 1); */
+      -7px -7px 9px rgba(247, 165, 188, 0.1);
+  border-radius: 15px;
+  background-color: #ffffff;
+  transition: box-shadow .2s ease-out;
+} 
+
+#archive:hover {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2),
+      0 0 0 rgba(255, 255, 255, 0.8),
+      inset 7px 7px 9px rgba(0, 0, 0, 0.1),
+      inset -7px -7px 9px rgba(255, 255, 255, 1);
+  transition: box-shadow .2s ease-out;
+} 
